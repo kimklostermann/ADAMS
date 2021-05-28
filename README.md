@@ -8,3 +8,7 @@ Airbnb is an online marketplace for accommodation rental founded in 2008. Proper
 In this assignment, you will predict property prices for Airnbnb listings in London. You will be provided with data on more than 55.000 properties containing the listing attributes (e.g., location, number of rooms, property type), texts with the listing description and rental price per night.
 
 Using a broad range of NLP techniques, you will need to build an NN-based model that predicts the price of listings in the test set based on both text and tabular data. If you wish to further refine the accuracy of your model, you will have access to additional data containing the listing reviews and property images.
+
+## Evaluation Metric
+
+Your submissions will be evaluated by computing Root Mean Squared Error between the actual property prices and submitted price predictions.
